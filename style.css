@@ -1,0 +1,387 @@
+body {
+    font-size: 18px;
+    color: black;
+}
+a,
+a:visited {
+    color: black;;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-left: 55px;
+}
+.navbar-brand {
+    margin: 36px 0px 36px 70px;
+}
+.navbar-nav {
+    margin-right: auto;
+}
+.text-left {
+    color: #000;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 71px;
+    padding-left: 164px;
+    padding-bottom: 70px;
+}
+.text-center {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+#carouselControls {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.carousel-inner {
+    display: grid;
+    justify-items: center;
+}
+.carousel-control-prev {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.carousel-control-next {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.carousel-control-prev-icon {
+    background-color: black;
+}
+.carousel-control-next-icon {
+    background-color: black;
+}
+.btn {
+    width: 201px;
+    height: 50px;
+    border: 1px solid #000;
+    background: rgba(200, 140, 88, 0.28);
+    color:#000
+}
+.btn-primary {
+    margin-top: 82px;
+    --bs-btn-active-bg: rgba(200, 140, 88, 0.28);
+    --bs-btn-active-border-color: #000;
+    --bs-btn-active-color: #000;
+    --bs-btn-hover-color: #000; 
+    --bs-btn-hover-bg: rgba(200, 140, 88, 0.28);
+    --bs-btn-hover-border-color: #000;
+}
+.modal-title {
+    color: #000;
+    font-family: Forum;
+    font-size: 40px;
+    font-weight: 400;
+}
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p1 {
+    color: #000;
+    font-family: Forum;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.44px;
+    padding-top: 25px;
+}
+.p2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: 0.32px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.mx-auto {
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+.accordion-item {
+    padding-top: 50px;
+    border: 0;
+}
+.accordion-button {
+    background: rgba(200, 140, 88, 0.65)!important;
+    max-width: 1110px;
+    height: 63px;
+    color: #000!important;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.44px;
+    margin: auto;
+    padding-left: 48px;
+    display: flex;
+}
+.accordion-body {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.32px;
+    background: rgba(200, 140, 88, 0.28);
+    max-width: 1110px;
+    height: 424px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 246px;
+    padding-right: 246px;
+}
+.p3 {
+    padding-top: 17px;
+}
+.was-validated {
+    max-width: 540px;
+    height: 716px;
+    background: rgba(255, 212, 146, 0.26);
+    margin: auto;
+}
+.p4 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+#validationTextarea {
+    max-width: 350px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-left: 95px;
+    background-color: rgba(255, 211, 146, 0);
+}
+.invalid-feedback {
+    margin-left: 95px;
+}
+.btn-booking {
+    margin-top: 40px;
+    --bs-btn-active-bg: rgba(200, 140, 88, 0.28);
+    --bs-btn-active-border-color: #000;
+    --bs-btn-active-color: #000;
+    --bs-btn-hover-color: #000; 
+    --bs-btn-hover-bg: rgba(200, 140, 88, 0.28);
+    --bs-btn-hover-border-color: #000;
+}
+.btn-secondary {
+    --bs-btn-active-bg: rgba(200, 140, 88, 0.28);
+    --bs-btn-active-border-color: #000;
+    --bs-btn-active-color: #000;
+    --bs-btn-hover-color: #000; 
+    --bs-btn-hover-bg: rgba(200, 140, 88, 0.28);
+    --bs-btn-hover-border-color: #000;
+}
+@media (max-width: 1260px) {
+    .carousel-control-next {
+        width: 8%;
+    }
+    .carousel-control-prev {
+        width: 8%;
+    }
+}
+@media (max-width: 1160px) {
+    .text-left {
+        padding-left: 120px;
+    }
+    .carousel-control-next {
+        width: 5%;
+    }
+    .carousel-control-prev {
+        width: 5%;
+    }
+}
+@media (max-width: 1125px) {
+    .carousel-control-next {
+        width: 2%;
+    }
+    .carousel-control-prev {
+        width: 2%;
+    }
+}
+@media (max-width: 1080px) {
+    .carousel-control-next {
+        width: 1.5%;
+    }
+    .carousel-control-prev {
+        width: 1.5%;
+    }
+    .carousel-control-next-icon {
+        width: 1rem;
+    }
+    .carousel-control-prev-icon {
+        width: 1rem;
+    }
+    .text-left {
+        padding-left: 90px;
+    }
+    .accordion-body {
+        padding-left: 200px;
+    }
+}
+@media (max-width: 1059px) {
+    .carousel-inner {
+        padding-left: 130px;
+    }
+    .carousel-control-next {
+        width: 10%;
+    }
+    .carousel-control-prev {
+        width: 10%;
+    }
+    .carousel-control-next-icon {
+        width: 2rem;
+    }
+    .carousel-control-prev-icon {
+        width: 2rem;
+    }
+}
+@media (max-width: 1020px) {
+    .carousel-inner {
+        padding-left: 100px;
+    }
+    .accordion-body {
+        padding-right: 200px;
+        padding-left: 150px;
+    }
+}
+@media (max-width: 980px) {
+    .carousel-inner {
+        padding-left: 80px;
+    }
+    .text-left {
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 940px) {
+    .carousel-control-next {
+        width: 5%;
+    }
+    .carousel-control-prev {
+        width: 5%;
+    }
+    .carousel-inner {
+        padding-left: 60px;
+    }
+    .accordion-body {
+        padding-right: 160px;
+        padding-left: 120px;
+    }
+}
+@media (max-width: 900px) {
+    .carousel-inner {
+        padding-left: 40px;
+    }
+    .text-left {
+        font-size: 34px;
+        padding-bottom: 30px;
+    }
+    .text-center {
+        font-size: 14px;
+    }
+    .mx-auto {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .modal-title {
+        font-size: 34px;
+    }
+}
+@media (max-width: 870px) {
+    .carousel-control-prev {
+        width: 3%;
+    }
+    .carousel-control-next {
+        width: 3%;
+    }
+    .carousel-inner {
+        padding-left: 25px;
+    }
+    .accordion-body {
+        padding-right: 100px;
+        padding-left: 90px;
+    }
+}
+@media (max-width: 840px) {
+    .carousel-control-next {
+        width: 2%;
+    }
+    .carousel-control-prev {
+        width: 2%;
+    }
+    .carousel-inner {
+        padding-left: 10px;
+    }
+    .accordion-button {
+        font-size: 18px;
+    }
+}
+@media (max-width: 809px) {
+    .carousel-inner {
+        padding-left: 135px;
+    }
+    .carousel-control-next {
+        width: 10%;
+    }
+    .carousel-control-prev {
+        width: 10%;
+    }
+    .text-left {
+        padding-left: 70px;
+        padding-top: 60px;
+    }
+    .accordion-body {
+        padding-right: 70px;
+        padding-left: 60px;
+    }
+}
+@media (max-width: 780px) {
+    .img3 {
+        width: 250px;
+    }
+    .navbar-brand {
+        margin-bottom: 26px;
+    }
+    .carousel-inner {
+        padding-left: 115px;
+    }
+    .accordion-body {
+        font-size: 14px;
+    }
+    .text-left {
+        font-size: 30px;
+    }
+    .accordion-item {
+        padding-top: 30px;
+    }
+}
